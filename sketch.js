@@ -40,8 +40,8 @@ function draw(){
       ghost.x = ghost.x + 3;
     }
     
-    if(keyDown("up_arrow")){
-      ghost.y = ghost.y - 3;
+    if(keyDown("space")){
+      ghost.velocityY = -10;
     }
     
     ghost.velocityY = ghost.velocityY + 0.8
